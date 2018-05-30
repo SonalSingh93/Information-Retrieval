@@ -1,0 +1,31 @@
+cut off value for stop word list : n = 21
+
+the stop list:
+the : 181385
+of : 87482
+and : 72186
+in : 60499
+to : 49714
+a : 44084
+is : 23928
+as : 20235
+on : 19257
+was : 18389
+for : 16705
+by : 16493
+with : 15080
+from : 13701
+that : 13070
+are : 11284
+at : 11029
+it : 10637
+were : 10540
+which : 8506
+or : 8479
+
+I chose n as 21, because the words till n=21 do not serve to provide a meaning to the
+query, they also would not alter the search result if they are removed from it as they
+are only functional words and because of the high frequency.
+The 22nd word is 'hurricane' , increasing the cut off value would remove an essential word
+from the index therefore 21 seems to be a good estimate of the cut off value for the stop
+words list.

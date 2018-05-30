@@ -1,0 +1,50 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 HW4:\
+Task1 :\
+Lucene Ranking System:\
+Eclipse : Oxygen, JDK - 8\
+Create a new project\
+Download Lucene 4.7.2\
+Add the following external jars to the referenced Libraries :\
+	- lucene-core-4.7.2.jar\
+	- lucene-queryparser-4.7.2.jar\
+	- lucent-analyzers-commom-4.7.2.jar\
+Add the hw4.java file to the source folder and run the program.\
+\
+The program first asks for a path to place the index.\
+The path to the queries text file and the path where the output tables must be stored.\
+The program then asks for the directory that stores the parsed documents for which the index should be created.\
+The queries are stored in a txt file with the pat\
+The program calculates the scores for matching documents, and stores the top 100 results for each query in a file called luceneRanking.txt\
+A copy of the 1000 parsed files has been provided in the folder final_parsed\
+\
+Task2 :\
+Required:\
+Python version : Python 3.6.2 :: Anaconda, Inc.\
+\
+Run the program bm25.py\
+The user is prompted to enter the path (full path) for the parsed documents folder and the index file and the query file(queries.txt). \
+Provide the path of the files provided in the zip folder.\
+The program calulates the BM25 scores and stores the output in a file called bm25ranking.txt in the same folder where the code is present.\
+A copy of the 1000 parsed files has been provided in the folder final_parsed\
+\
+\
+OUTPUT FILES PROVIDED:\
+Bm25ranking.txt - stores the top 100 result for each query in the given format\
+queryID Q0 docId rank BM15score system_name\
+Stores the 9 tables for BM25 scores\
+luceneRanking.txt - stores the op 100 result for each query in the given format\
+queryID Q0 docId rank BM15score system_name\
+Stores the 9 tables with lucent calculated scores\
+BM25Implementation.txt - a brief description about the implementation of BM25 ranking algorithm\
+queries.txt - stores the queries in the format queryId:query\
+\
+\
+\
+}

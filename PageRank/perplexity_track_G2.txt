@@ -1,0 +1,14 @@
+The perplexity is : 685.795935374327
+The perplexity is : 637.1113521245932
+The perplexity is : 599.2124474793966
+The perplexity is : 579.2196494614692
+The perplexity is : 567.7428351017664
+The perplexity is : 560.8123088167847
+The perplexity is : 556.3937811112606
+The perplexity is : 553.4177314824577
+The perplexity is : 551.3048053830896
+The perplexity is : 549.7325196947651
+The perplexity is : 548.5163049201994
+The perplexity is : 547.5470028205168
+The perplexity is : 546.7574864500258
+The perplexity is : 546.1045729807266

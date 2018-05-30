@@ -1,0 +1,72 @@
+Report on G1 & G2 incoming links and pagerank (BFS graph)
+
+Pages with high inlinks are not necessary ranked high in the pagerank calculation
+because not all inlinks are quality inlinks and the pagerank essentially
+indicates how important/relevant a page is.
+
+An inlink with higher page rank will contribute more to the pagerank of the page
+it is pointing to.
+
+Although inlinks can be used as a simple measure to indicate which is a popular
+page, it will not indicate anything about the importance/quality of a page.
+
+The page with maximum inlink count is International_Standard_Book_Number which
+is unique for each book ever published, since every page has a reference section
+that refers to book/papers related to that topic, there will be reference to the
+wiki page of ISBN.
+
+Other pages that follow International_Standard_Book_Number that are related to
+our seed page, since we mostly crawl pages that are obtained from the
+Tropical_Cyclone page.
+
+The pages that are high in page rank are pages that deal with licensing and
+archiving data on the web. since all the pages that have high pagerank point to
+these pages, the pagerank of these pages also increase.
+
+Top 10 Inlinks G1:
+International_Standard_Book_Number : 435
+Tropical_cyclone : 358
+Digital_object_identifier : 355
+Bibcode : 247
+Wayback_Machine : 246
+National_Oceanic_and_Atmospheric_Administration : 226
+Extratropical_cyclone : 205
+National_Hurricane_Center : 201
+Pascal_(unit) : 193
+Storm_surge : 191
+
+Top 10 Pagerank G1:
+Wayback_Machine : 0.055293872104579436
+International_Standard_Book_Number : 0.042018604973256234
+Digital_object_identifier : 0.036179015212115494
+International_Standard_Serial_Number : 0.028094853498129128
+National_Diet_Library : 0.02312415485606231
+Bibcode : 0.01776625004470102
+PubMed_Identifier : 0.013549135180913299
+OCLC : 0.012682623885158072
+Canada : 0.011850038116546254
+World_War_II : 0.01183961160340034
+
+Top 10 Inlinks G2:
+International_Standard_Book_Number : 568
+Turks_and_Caicos_Islands : 419
+United_Kingdom : 380
+United_States : 349
+Bermuda : 342
+Montserrat : 336
+Anguilla : 334
+British_Virgin_Islands : 327
+Cayman_Islands : 321
+Geographic_coordinate_system : 308
+
+Top 10 Pageranks G2:
+Syst%C3%A8me_universitaire_de_documentation : 0.024500826580972
+Integrated_Authority_File : 0.02172090088144809
+International_Standard_Book_Number : 0.021676139602004377
+Virtual_International_Authority_File : 0.019705108918978777
+Wayback_Machine : 0.017852304360146655
+United_States : 0.015577753878729422
+Digital_object_identifier : 0.015229281031618356
+Biblioth%C3%A8que_nationale_de_France : 0.008918591326512619
+International_Standard_Serial_Number : 0.008903332627411794
+United_Kingdom : 0.007822191062692998

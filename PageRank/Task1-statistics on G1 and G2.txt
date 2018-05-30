@@ -1,0 +1,13 @@
+G1:
+The following is a sink node : Hurricane_Creek_(disambiguation)
+The following is a sink node : Exploded_view
+
+There are no pages with no inlinks in G1
+
+
+G2:
+The following is a sink node : Clockwise_and_counterclockwise
+The following is a sink node : Squirrelfish
+The following is a sink node : Flag_of_the_Caribbean_Community
+
+There are no pages with no inlinks in G2
